@@ -14,6 +14,9 @@ cts = text['statewise']
 tested = text['tested']
 l = len(tested)
 
+def last_updated():
+    return cts[0]['lastupdatedtime']
+
 def total_active():
     return format_number(int(cts[0]['active']), locale='en_IN')
 
