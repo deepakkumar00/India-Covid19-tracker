@@ -17,4 +17,4 @@ def hello_world():
     d_deaths = delta_deaths()
     return render_template('index.html', active=active, recovered=recovered, \
     deaths=deaths, confirmed=confirmed, tested=tested, d_confirmed=d_confirmed, \
-    d_deaths=d_deaths, d_recovered=d_recovered)
+    d_deaths=d_deaths, d_recovered=d_recovered, last_updated=last_updated)
